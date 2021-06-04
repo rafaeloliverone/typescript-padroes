@@ -1,5 +1,3 @@
-// Import stylesheets
-import './style.css';
 import { Car } from './vehicle/car';
 import { CarFactory } from './factories/car-factory';
 import { BicycleFactory } from './factories/bicycle-factory';
@@ -16,6 +14,9 @@ const bicycle = bicycleFactory.getVehicle('Bicycle');
 
 car1.pickUp('Rafael');
 car1.stop();
+
+car2.pickUp('Leandro');
+car2.stop();
 
 bicycle.pickUp('Julia');
 bicycle.stop();
